@@ -88,7 +88,7 @@ sudo yum install -y https://github.com/apache/apisix/releases/download/2.10.1/ap
 
 ```shell
 # initialize NGINX config file and etcd
-make init
+apisix init
 ```
 
 ### 启动 Apache APISIX
